@@ -1,6 +1,7 @@
 'use strict'
 
-var should = require('should')
+require('should')
+
 var path = require('path')
 var parse = require('..')
 var fs = require('fs')
@@ -11,7 +12,7 @@ var PATH = {
   yaml: fs.readFileSync(path.resolve('test/fixtures/yaml'), 'utf8')
 }
 
-function expected (data) {
+function expected (data) {
   Object.keys(data).length.should.be.equal(2)
 }
 
