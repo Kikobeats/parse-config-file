@@ -2,7 +2,7 @@
   "name": "parse-config-file",
   "description": "Parse JSON/CSON/YAML file without specify the format.",
   "homepage": "https://github.com/Kikobeats/parse-config-file",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
