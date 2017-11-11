@@ -1,5 +1,7 @@
 # parse-config-file
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/parse-config-file.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/parse-config-file.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/parse-config-file/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/parse-config-file)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/parse-config-file.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/parse-config-file)
