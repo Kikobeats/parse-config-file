@@ -26,7 +26,7 @@
     "yaml"
   ],
   "dependencies": {
-    "cson-parser": "~3.0.0",
+    "cson-parser": "~4.0.0",
     "yaml-parser": "~3.5.3"
   },
   "devDependencies": {
