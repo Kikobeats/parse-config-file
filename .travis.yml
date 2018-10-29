@@ -1,5 +1,9 @@
 language: node_js
 
+node_js:
+  - lts/*
+  - node
+
 stages:
   - Test
   - name: Release
@@ -8,12 +12,9 @@ stages:
 jobs:
   include:
     - stage: Test
-      node_js:
-        - lts/*
-        - node
       after_success: npm run coverage
     - stage: Release
-      node_js: "lts/*"
+      node_js: lts/*
       install: npm install --no-package-lock
       before_deploy:
         - git config user.email "travis@travis-ci.org"
